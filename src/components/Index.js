@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import mypic from '../images/mypic2.jpg';
 
 export const Index = () => {
   return (
@@ -27,7 +26,7 @@ export const Index = () => {
         </div>
         <div className='right-column'>
 
-          <img src= {mypic} alt=''></img>
+          <img src= '/images/mypic2.jpg' alt=''></img>
 
         </div>
       </div>
