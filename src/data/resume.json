@@ -1,0 +1,96 @@
+{
+	"Summary": "Software Developer with 3 years of experience in personal projects and tasks performed in past IT roles. Knowledge of both backend and frontend development. Proficient in Java and Python for backend applications, with a strong command of React and Express for frontend and server-side scripting. Skilled in creating dynamic and responsive web applications using HTML and CSS, and adept in database management with MySQL. Known for delivering robust, scalable, and efficient solutions, with a keen eye for detail and a passion for continuous learning and improvement.",
+	"Education": [{
+		"Type": "University",
+		"institution": "Florida International University",
+		"GradDate": "May 2023",
+		"Degree": "Bachelors of Science in Information Technology",
+		"GPA": "3.78",
+		"Concentrations": 	
+			[
+			"Java",
+			"Python",
+			"Javascript",
+			"HTML",
+			"CSS",
+			"C",
+			"Data Structures and Algorithms",
+			"Linux",
+			"MySQL",
+			"MongoDB",
+			"Mobile Development"
+			]
+	}],
+	"WorkExperience": [
+		{
+		"Company": "UKG",
+		"Location": "Weston, FL",
+			"Positions": [{
+			"Position": "Cloud Engineer",
+			"StartDate": "Sept 2023",
+			"EndDate": "Present",
+			"Tasks": 
+				[
+				"Created an automation system using Python to extract data from Jira and ServiceNow, and reflect it in PowerBI dashboards, enhancing visibility of performance metrics for management.",
+				"Oversaw the deployment and management of various environments hosting the primary application, ensuring high availability and performance.",
+				"Authored comprehensive documentation for procedures and processes, facilitating knowledge transfer and process standardization.",
+				"Identified and resolved critical functionality bugs in MySQL databases, ensuring smooth application operations and improved performance.",
+				"Provided extensive application support, addressing user issues, implementing patches, and performing database backups and restorations.",
+				"Applied Agile and Scrum methodologies to manage projects, ensuring iterative development and continuous delivery."
+				]
+			}]
+        },
+        {
+		"Company": "BANK UNITED",
+		"Location": "Miami, FL",
+		"Positions": [{
+			"Position": "Cloud Operations Engineer",
+			"StartDate": "May 2022",
+			"EndDate": "Sept 2023",
+			"Tasks": 
+				[
+				"Collaborated with projects and single requests using ServiceNow and Jira.",
+				"Built and maintained servers and instances in AWS and VMWare.",
+				"Generated snapshots and restored servers with Rubrik.",
+				"Developed custom PowerShell scripts to automate configuration of servers, effectively eliminating the need for manual and repetitive work, resulting in a 75% increase in productivity."
+				]
+			}]
+        },
+        {
+		"Company": "IMPACT COMPUTERS & ELECTRONICS",
+		"Location": "Hollywood, FL",
+		"Positions": [{
+			"Position": "Technical Operations Manager",
+			"StartDate": "Jun 2017",
+			"EndDate": "Apr 2022",
+			"Tasks": 
+				[
+				"Integrated our database with shipping software to achieve a remarkable 400% improvement in our shipping process.",
+				"Collaborated closely with software engineers on systems development to improve operational functionalities and suggested implementations in the Database Management System (FileMaker), as well as 3rd party APIs, to incorporate with our internal services.",
+				"Demonstrated strong problem-solving skills by developing innovative logistic strategies and automation techniques, resulting in a substantial 80% increase in productivity on the shipping assembly line."
+				]
+			},
+			{
+			"Position": "Computer Technician Supervisor",
+			"StartDate": "Mar 2015",
+			"EndDate": "Jun 2017",
+			"Tasks": 
+				[
+				"Documented specifications of computer components and equipment and sourced computer hardware compatibility.",
+				"Maintained and repaired computers and their components.",
+				"Developed logistic strategies in operations."
+				]
+			},
+			{
+			"Position": "Computer Technician ",
+			"StartDate": "Oct 2014",
+			"EndDate": "Mar 2015",
+			"Tasks": 
+				[
+				"Diagnosed and repaired desktops, laptops, tablets, printers, and scanners and tested defective returned items.",
+				"Installed and configured new Microsoft or Macintosh systems and managed user accounts and permissions."
+				]
+			}
+			]
+		}]
+}
