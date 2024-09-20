@@ -8,7 +8,7 @@ export const Contact = () => {
         <input type='text' placeholder='Name'/>
         <input type='text' placeholder='Last Name'/>
         <input type='text' placeholder='Email'/>
-        <textarea placeholder='Message' />
+        <textarea placeholder='Message' name="Body"/>
         <input type='submit' value='Send'/>
       </form>
     </div>
