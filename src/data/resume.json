@@ -92,5 +92,49 @@
 				]
 			}
 			]
-		}]
+		}],
+
+    "Skills":[{
+        "Languages":[
+            "English (fluent)",
+            "Spanish (native)",
+            "Portuguese (intermediate)"
+        ],
+        "Programming":[
+            "C",
+            "Java",
+            "Python",
+            "Flask",
+            "Javascript",
+            "React",
+            "HTML",
+            "CSS",
+            "PowerShell",
+            "MySQL",
+            "MongoDB"
+        ],
+        "Softwares":[
+            "VS Code",
+            "MS Office Suite",
+            "Git",
+            "Jira",
+            "Confluence",
+            "ServiceNow",
+            "Windows",
+            "Linux",
+            "AWS",
+            "Rubrik",
+            "PowerBI",
+            "Docker"
+        ],
+        "SoftSkills":[
+            "Adaptability",
+            "Time Management",
+            "Communication",
+            "Creativity",
+            "Work Ethic",
+            "Decision Making",
+            "Problem Solving"
+        ]
+    }]
 }

@@ -106,16 +106,19 @@ code {
   color: #000000;
   text-decoration: none;
   transition: all 200ms;
-  text-decoration: none;
-  text-shadow: none;
+  text-shadow: 1px 1px 5px #a2adb3;
+
 }
 
 .header .active{
   color:#00acfc;
   text-decoration: underline;
+  text-shadow: none;
 }
 .header a:hover{
   color:#00acfc;
+  text-shadow: none;
+
 }
 
 .content {
@@ -258,20 +261,18 @@ button:hover{
 
 .work-item h3{
   display: block;
+  margin-top: 20px;
 }
 
 .work-item a{
-  color: rgb(0, 0, 0);
+  color: #131618;
   text-decoration: none;
+  text-shadow: 1px 1px 5px #a2adb3;
+
   transition: 300ms;
-  text-shadow: 2px 5px 5px #1d6eb1;
 }
 
-.work-item a:hover{
-  color: #18679c;
-  text-shadow: 2px 5px 5px #000000;
-  text-decoration: none;
-}
+
 
 .work-item hr{
  color: #0e202983;
@@ -314,9 +315,6 @@ button:hover{
   margin-top: 40px;
 }
 
-.curriculum h4{
-  font-weight: bold;
-}
 
 .pos{
   margin-bottom: 40px;
@@ -324,4 +322,8 @@ button:hover{
 
 .curriculum p{
   text-align: justify;
+}
+
+.skills{
+  margin-right: 10px;
 }

@@ -3,7 +3,7 @@ import resumeData from '../data/resume.json'
 
 export const Curriculum = () => {
 
-  const { Summary, Education, WorkExperience } = resumeData;
+  const { Summary, Education, WorkExperience, Skills } = resumeData;
 
   console.log(resumeData);
   return (
@@ -55,40 +55,26 @@ export const Curriculum = () => {
               </section>
             )
             )}
-        
+      <h2>Skills</h2>
+        {Skills.map((skill, index)=>(
+          <section className='skills' key={index}>
+            
+            <h4>Languages: <br/>{skill.Languages.map((lang, j) =>(
+              <li key={j}>{lang}</li>
+            ))}</h4>
+            <h4>Programming Skills: <br/>{skill.Programming.map((prog, j) =>(
+              <li key={j}>{prog}</li>
+            ))}</h4>
+            <h4>Known Softwares: <br/>{skill.Softwares.map((softwares, j) =>(
+              <li key={j}>{softwares}</li>
+            ))}</h4>
+            <h4>Soft Skills: <br/>{skill.SoftSkills.map((softskills, j) =>(
+              <li key={j}>{softskills}</li>
+            ))}</h4>
+          </section>
 
-      
-      {/*<h2>Summary</h2>
+        ))}
 
-      <h2>Work Experience</h2>
-      <h3 className='company-name'>UKG, Weston, FL</h3>
-      <div className='row-for-dates'>
-        <div className='title-column'>
-          <h4>Cloud Engineer</h4>
-        </div>       
-        <div className='date-column'>
-          <h4>(Sept 2023 – Present)</h4>
-        </div>     
-      </div>
-      <li>
-        Created an automation system using Python to extract data from Jira and ServiceNow, and reflect it in PowerBI dashboards, enhancing visibility of performance metrics for management.
-      </li>
-      <li>
-        Oversaw the deployment and management of various environments hosting the primary application, ensuring high availability and performance.
-      </li>
-      <li>
-      Authored comprehensive documentation for procedures and processes, facilitating knowledge transfer and process standardization.
-      </li>
-      <li>
-        Identified and resolved critical functionality bugs in MySQL databases, ensuring smooth application operations and improved performance.
-      </li>
-      <li>
-        Provided extensive application support, addressing user issues, implementing patches, and performing database backups and restorations.
-      </li>
-      <li>
-        Applied Agile and Scrum methodologies to manage projects, ensuring iterative development and continuous delivery.
-      </li>
-      */}
 
     </div>
   )
