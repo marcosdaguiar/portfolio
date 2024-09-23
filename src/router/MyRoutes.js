@@ -4,6 +4,7 @@ import { Index } from '../components/Index';
 import { Contact } from '../components/Contact';
 import { Curriculum } from '../components/Curriculum';
 import { Portfolio } from '../components/Portfolio';
+import { Project } from '../components/Project';
 import { HeaderNav } from '../components/layout/HeaderNav';
 import { Footer } from '../components/layout/Footer';
 
@@ -21,6 +22,7 @@ export const MyRoutes = () => {
             <Route path='/contact' element={<Contact/>} />
             <Route path='/curriculum' element={<Curriculum/>} />
             <Route path='/portfolio' element={<Portfolio/>} />
+            <Route path='/project/:id' element={<Project/>}/>
             <Route path='*' element={
               <div className='page'>
                 <h1>Error 404</h1>

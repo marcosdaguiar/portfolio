@@ -7,8 +7,7 @@ export const Curriculum = () => {
 
   console.log(resumeData);
   return (
-
-    
+   
     <div className='curriculum'>
       <h1>Curriculum</h1>
 
@@ -38,19 +37,16 @@ export const Curriculum = () => {
               <section key={index}>
                 <div className='row-for-dates'>
                   <div className='title-column'>
-                    <h3>{work.Company} - {work.Location}</h3>
-                    
+                    <h3>{work.Company} - {work.Location}</h3>                    
                     {work.Positions.map((pos, j) =>(
                       <section className= 'pos' key={j}>
                         <h4>{pos.Position} ({pos.StartDate} - {pos.EndDate})</h4>
                         {pos.Tasks.map((task, k) =>(
                           <li key={k}>{task}</li>                       
-                        ))}     
-                
+                        ))}                     
                       </section>                                           
                     ))}         
-                  </div>       
-                  
+                  </div>                         
                 </div>    
               </section>
             )
